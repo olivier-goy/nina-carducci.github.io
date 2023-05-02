@@ -83,8 +83,12 @@ body {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
+	line-height: 19px;
+	display: block;
 	width: 60%;
+	margin-bottom: 9px;
 }
+
 #about-me p {
 	width: 80%;
 	font-size: 14px;
@@ -256,7 +260,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me b, #about-me p {
 		width: 100%;
 	}
 }
